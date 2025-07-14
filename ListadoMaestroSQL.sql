@@ -338,7 +338,7 @@ WHERE ITERCERO NOT IN ('04209010311343','0471006589','05019005481451','050190180
 		GROUP BY X1.CLASIFICACION
 		ORDER BY X1.CLASIFICACION ASC 	
  
-	--Cantidad de áreas de trabajo por servidor, tercero, nombre área y rango
+--Cantidad de áreas de trabajo por servidor, tercero, nombre área y rango
 WITH X1 AS(
 SELECT DISTINCT ITERCERO,GUID||','||NAREA AS CUENTA
 FROM REGINISIS_GENERAL
