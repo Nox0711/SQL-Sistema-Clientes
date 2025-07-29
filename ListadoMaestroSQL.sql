@@ -1165,7 +1165,7 @@ T1. ASIGNADOA IN ('PRENDON','ESUAREZ','DOCAMPO','DHURTADO','DRODRIGUEZ')
 AND T1.BANULADO='F' 
 AND T1.FHSOLUCIONADO IS NULL 
 AND T5.NTITULO IS NOT NULL 
-AND T5.NTITULO IN ('1 - PQR Error del sistema','1 - Consulta','1 - ING Servicios BD','1 - ING Servicios Otros','1 - ING Servicios SQL','1 - PQR Error/Novedad externa','1 - PQR Ajuste del sistema')
+AND T5.NTITULO IN ('1 - PQR Error del sistema','1 - Consulta','1 - ING Servicios BD','1 - ING Servicios Otros','1 - ING Servicios SQL','1 - PQR Error/Novedad externa','1 - PQR Ajuste del sistema','1 - PQR Cambio normativo')
 AND T1.FCREACION<CURRENT_DATE
 AND T1.ITIQUETE NOT IN (623139) 
 AND T1.IAPLICACION NOT IN ('CL')
